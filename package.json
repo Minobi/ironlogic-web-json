@@ -1,0 +1,28 @@
+{
+  "name": "ironlogic-web-json",
+  "version": "0.1.0",
+  "description": "IronLogic API server for Web-JSON mode",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minobi/ironlogic-web-json.git"
+  },
+  "keywords": [
+    "ironlogic"
+  ],
+  "author": "Minobi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Minobi/ironlogic-web-json/issues"
+  },
+  "homepage": "https://github.com/Minobi/ironlogic-web-json#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
